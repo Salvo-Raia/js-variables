@@ -58,6 +58,28 @@ console.log(`Costi singoli elementi: ` + `Mele = ${prezzoMele}` + `€; ` + `Ban
     + `Arance = ${prezzoArance}` + `€; ` + `Uva = ${prezzoUva}` + `€. ` + `Prezzo totale = `  
     + (prezzoMele + prezzoBanane + prezzoArance + prezzoUva) + `€`)
 
+// 9. "80fame"
+// Esagera con la spesa e mostra il totale stampando il risultato 
+// in console
+console.log(`Costi singoli elementi: ` + `4 Mele = ${prezzoMele*4}` + `€; ` + `2 Banane = ${prezzoBanane*2}` + `€; ` 
+    + `6 Arance = ${prezzoArance*6}` + `€; ` + `2 Uva = ${prezzoUva*2}` + `€. ` + `Prezzo totale = `  
+    + (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2) + `€`)
+
+// 10. Stringere la cinghia
+// Crea una variabile budget e una condizione secondo cui, se la somma di tutta la spesa
+// è uguale o inferiore al valore della variabile budget, viene mostrato un messaggio in console che 
+// mostra il totale da spendere e conferma di essere ancora ancora entro il budget, altirmenti
+// viene mostrato un messaggio che suggerisce di limitarsi con le spese
+const budget = 50;
+
+if (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 <=budget) {
+    console.log("Perfetto! Con una spesa di " + (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 + "€ ") 
+    + "Rientri nel tuo budget di " + budget + "€")
+}
+else {
+    console.log("Oh no! Forse devi contenere le spese...")
+}
+
 
 
 
