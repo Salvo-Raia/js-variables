@@ -29,3 +29,21 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
+
+// 6. Shake!
+// Genera tre ricette utilizzando la variabile shoppingList 
+
+const frullato_1 = shoppingList.substring(0,4) + " e " + shoppingList.substring(6,12)
+const frullato_2 = shoppingList.substring(0,4) + " e " + shoppingList.substring(14,20)
+const frullato_3 = shoppingList.substring(0,13) + " e" + shoppingList.substring(21)
+
+console.log(`"Frullato primaverile" = ${frullato_1}`);
+console.log(`"Frullato energizzante" = ${frullato_2}`);
+console.log(`"Frullato catastrofico" = ${frullato_3}`);
+
+// 7. Calembour 
+// Realizza un gioco di parole tra la variabile city e la variabile shoppingList 
+const fruitReplaced = shoppingList.substring(0,4).replace("mele", "mela")
+console.log (`${city} è anche detta = la grande ${fruitReplaced}`)
+
+// 8.
