@@ -44,7 +44,7 @@ console.log(`"Frullato catastrofico" = ${frullato_3}`);
 // 7. Calembour 
 // Realizza un gioco di parole tra la variabile city e la variabile shoppingList 
 const fruitReplaced = shoppingList.substring(0,4).replace("mele", "mela")
-console.log (`${city} è anche detta = la grande ${fruitReplaced}`)
+console.log (`${city} è anche detta = La grande ${fruitReplaced} 🍎`)
 
 // 8. Carovita 
 // Assegna un prezzo ad ogni frutto della variabile shoppingList, 
@@ -73,11 +73,12 @@ console.log(`Costi singoli elementi: ` + `4 Mele = ${prezzoMele*4}` + `€; ` + 
 const budget = 50;
 
 if (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 <=budget) {
-    console.log("Perfetto! Con una spesa di " + (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 + "€ ") 
-    + "Rientri nel tuo budget di " + budget + "€")
+    console.log("✅ Perfetto! Con una spesa di " + (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 + "€ ") 
+    + "rientri nel tuo budget di " + budget + "€")
 }
 else {
-    console.log("Oh no! Forse devi contenere le spese...")
+    console.log("😢 Oh no! Con una spesa di "+ (prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2 + "€ ") 
+    + "hai superato il tuo budget da " + `${budget}€.` + "Forse devi contenere le spese... Prova a ridurre di " + ((prezzoMele*4 + prezzoBanane*2 + prezzoArance*6 + prezzoUva*2)-(budget)) + "€!")
 }
 
 
