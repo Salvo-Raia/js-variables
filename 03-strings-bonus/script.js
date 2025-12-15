@@ -46,4 +46,18 @@ console.log(`"Frullato catastrofico" = ${frullato_3}`);
 const fruitReplaced = shoppingList.substring(0,4).replace("mele", "mela")
 console.log (`${city} è anche detta = la grande ${fruitReplaced}`)
 
-// 8.
+// 8. Carovita 
+// Assegna un prezzo ad ogni frutto della variabile shoppingList, 
+// dopodiché stampa in console i singoli prezzi e il costo totale.
+const prezzoMele = (2.5);
+const prezzoBanane = 4;
+const prezzoArance = (3.5);
+const prezzoUva = 5; 
+
+console.log(`Costi singoli elementi: ` + `Mele = ${prezzoMele}` + `€; ` + `Banane = ${prezzoBanane}` + `€; ` 
+    + `Arance = ${prezzoArance}` + `€; ` + `Uva = ${prezzoUva}` + `€. ` + `Prezzo totale = `  
+    + (prezzoMele + prezzoBanane + prezzoArance + prezzoUva) + `€`)
+
+
+
+
