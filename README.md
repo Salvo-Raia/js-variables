@@ -2,6 +2,8 @@
 
 # 🎓 Exercise 14/50: JavaScript Variables
 
+JavaScript exercise focused on variable declaration, value assignment, and basic data manipulation.
+
 ## 📌 Project Overview
 
 | Property | Details |
