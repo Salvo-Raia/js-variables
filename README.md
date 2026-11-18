@@ -4,30 +4,31 @@
 
 JavaScript exercise focused on variable declaration, value assignment, and basic data manipulation.
 
-## Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | js-variables |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 14/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-variables | JavaScript Variables | Exercise | JavaScript Variables & Data Types | 14/50 |
 
 ## Assignment
 
-Starting from the provided source code, complete all the tasks required in each of the available JavaScript files.
-
-Use the browser DevTools and `console.log()` to check and verify your results.
+Complete the tasks in the provided JavaScript files, following the instructions in each section. Use `console.log()` to display and verify your results.
 
 1. Download the exercise folder and extract it into the directory where you keep your projects.
 2. Make sure the folder is named `js-variables`.
 3. Open the folder in Visual Studio Code.
 4. Using VS Code, create and publish a public GitHub repository named `js-variables`.
-5. Every time you complete an exercise, create a commit and push your changes to GitHub.
+5. Every time you complete a task, create a commit and push your changes to GitHub.
 
-#### Bonus
+The exercise is divided into three sections: 
 
-Some of the source files also contain bonus tasks. These are optional challenges you can tackle if you finish the main exercises ahead of time.
+- `01-numbers`
+- `02-strings`
+- `03-strings-bonus`
+
+#### Bonus challenge
+
+The `03-strings-bonus` folder contains optional challenges you can tackle if you complete the main exercises ahead of time.
 
 ## Technologies
 
