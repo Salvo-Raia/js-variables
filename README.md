@@ -20,7 +20,7 @@ Complete the tasks in the provided JavaScript files, following the instructions 
 4. Using VS Code, create and publish a public GitHub repository named `js-variables`.
 5. Every time you complete a task, create a commit and push your changes to GitHub.
 
-The exercise is divided into three sections: 
+The exercise is divided into three sections.
 
 - `01-numbers`
 - `02-strings`
