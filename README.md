@@ -2,7 +2,7 @@
 
 # Exercise 14/50: JavaScript Variables
 
-JavaScript exercise focused on variable declaration, value assignment, and basic data manipulation.
+A JavaScript exercise focused on variable declarations, value assignments, and basic data manipulation.
 
 ## Project overview
 
@@ -28,7 +28,7 @@ The exercise is divided into three sections.
 
 #### Bonus challenge
 
-The `03-strings-bonus` folder contains optional challenges you can tackle if you complete the main exercises ahead of time.
+The `03-strings-bonus` folder contains optional challenges to tackle once you have completed the main exercises.
 
 ## Technologies
 
