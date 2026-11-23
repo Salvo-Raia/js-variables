@@ -8,7 +8,7 @@ A JavaScript exercise focused on variable declarations, value assignments, and b
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-variables | JavaScript Variables | Exercise | JavaScript & Variables | 14/50 |
+| js-variables | JavaScript Variables | Exercise | JavaScript, variables | 14/50 |
 
 ## Assignment
 
